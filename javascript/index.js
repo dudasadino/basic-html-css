@@ -24,20 +24,23 @@ document.addEventListener('DOMContentLoaded', event => {
             clickedElement.dataset.requestedFriendship = true
         }
     })
-    const save = document.querySelector(".post-save")
-    save.addEventListener('click', event => {
-        const clickSave = event.target
-        clickSave.style.backgroundColor = "green"
-        clickSave.style.borderColor = "darkGreen"
-        if (clickSave.dataset.save === 'true') {
-            clickSave.innerText = 'salvo'
-            clickSave.dataset.save = false
-        }
-        else {
-            clickSave.innerText = 'salvar'
-            clickSave.dataset.save = true
-        }
-    })
+
+    document.querySelectorAll(".post-save").forEach(save =>
+        save.addEventListener('click', event => {
+            const clickSave = event.currentTarget
+
+            if (clickSave.dataset.save === 'false') {
+                clickSave.innerText = 'Salvo'
+                clickSave.dataset.save = true
+            }
+            else {
+                clickSave.innerText = 'Salvar'
+                clickSave.dataset.save = false
+            }
+            const saveCount = Array.from(document.querySelectorAll(".post-save")).filter(post => post.innerText === 'Salvo').length
+            const count = document.querySelector('#count')
+            count.innerText = saveCount
+        }))
 
     const sendMessageEl = document.querySelector("#send-message")
     sendMessageEl.addEventListener("click", function (event) {
