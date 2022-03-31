@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2? family= Acme & family= Anton & family= Bebas+Neue & family= Carter+One & family= Comfortaa:wght@700 & family= Courgette & family= François+One & family= Fredoka+One & family= Gloria+Hallelujah & family= Indie+Flor & family= Lagosta+Two:ital@1 & family= Martel:wght@700 & family= Miau+Script &family= Orelega+One & display=swap');
-
+@import url('https://fonts.googleapis.com/css2? family= Acme & family= Anton & family= Bebas+Neue & family= Carter+One & family= Comfortaa:wght@700 & family= Courgette & family= François+One & family= Fredoka+One & family= Gloria+Hallelujah & family= Indie+Flor & family= Lagosta+Two:ital@1 & family= Martel:wght@700 & family= Miau+Script &family= Oleo+Script:wght@700 & family= Orelega+One & family= Poiret+One &family= Alga+Script & display=swap');
 
 * {
-    margin: 4px;
-    padding: 4px;
-    font-family: 'Lobster Two';
+    margin: 8px;
+    padding: 8px;
+   
 
 }
 .imagem img {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     border-radius: 100%;
     overflow: hidden;
     max-width: 1100px;
@@ -17,7 +17,7 @@
 }
 header {
     text-align: center;
-    border: 1px 1px 1px 1px solid #fae2e2;
+    border: 1px 1px 1px 1px solid #f3cdcd;
     padding: 26px;
     border-radius: 16px;
     box-shadow: 0px 1px 12px rgb(0 0 0 / 20%);
@@ -26,8 +26,15 @@ header {
     align-items: center;
     
 }
-p {
+
+.h1 {
     font-family: "Lobster Two";
+    width: 150px;
+    height: 150px;
+
+}
+.p {
+    font-family: "Seaweed Script";
 
 }
 .button {
@@ -47,28 +54,32 @@ p {
 
 
 .content {
-    margin-top: 30px;
+    margin-top: 26px;
     display: inline-block;
+    padding: 86px;
 }
 
 .post-image {
-    height: 200px;
+    height: 185px;
 }
 
 .post-image img {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     object-fit: cover;
 }
 
 .post-title {
-    font-weight: 800;
+    font-weight: 600;
+    display: flex;
+    margin: 8px;
+    padding: 3px;
 }
 
 .posts {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 36px;
+    gap: 16px;
 }
 
 header > * {
@@ -84,17 +95,18 @@ header > * {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1099px;
     margin: auto;
     padding: 24px;
+    width: 1120px;
 }
 
 .picture {
-    width: 100px;
-    height: 100px;
+    width: 99px;
+    height: 94px;
     background-color: black;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 96%;
     overflow: hidden;
 }
 
