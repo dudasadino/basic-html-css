@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2? family= Acme & family= Anton & family= Bebas+Neue & family= Carter+One & family= Comfortaa:wght@700 & family= Courgette & family= François+One & family= Fredoka+One & family= Gloria+Hallelujah & family= Indie+Flor & family= Lagosta+Two:ital@1 & family= Martel:wght@700 & family= Miau+Script &family= Oleo+Script:wght@700 & family= Orelega+One & família= Playball &family= Poiret+One & family= Seaweed+Script & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Carter+One&family=Comfortaa:wght@700&family=Courgette&family=Francois+One&family=Fredoka+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Lobster+Two:ital@1&family=Martel:wght@700&family=Meow+Script&family=Oleo+Script:wght@700&family=Orelega+One&family=Playball&family=Poiret+One&family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Carter+One&family=Comfortaa:wght@700&family=Courgette&family=Francois+One&family=Fredoka+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Lobster+Two:ital@1&family=Martel:wght@700&family=Meow+Script&family=Oleo+Script:wght@700&family=Orelega+One&family=Playball&family=Poiret+One&family=Seaweed+Script&family=Space+Mono:ital@1&display=swap');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -76,6 +77,7 @@ body {
 
 .name {
     font-weight: 900;
+    font-family: 'Space Mono';
 }
 
 .bio {
@@ -151,7 +153,6 @@ body {
     border-radius: 18px;
     display: none;
 }
-
 .message textarea {
     width: 100%;
     border: 0;
@@ -193,7 +194,7 @@ body {
     box-shadow: 0 0 6px #00000036;
     transform: scale(1.05);
     background: #eaedff;
-    border: 3px solid #3f51b5;
+    border: 3px solid #c6cce7;
     margin-top: -3px;
     margin-left: -3px;
 }
@@ -225,11 +226,11 @@ body {
 .post-save {
     display: flex;
     align-items: center;
-    border: 1px solid #3e51b5;
+    border: 1px solid #e1e2eb;
     width: max-content;
     padding: 5px 12px;
     border-radius: 24px;
-    background-color: #3e51b5;
+    background-color: #e6e7ed17;
     color: white;
     float: right;
     margin: 0 0 6px;
