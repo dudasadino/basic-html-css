@@ -134,8 +134,7 @@ body {
 
 /*  MOBILE */
 @media (max-width: 600px) {
-    .button {
-    }
+    .button {}
 }
 
 .content {
@@ -145,7 +144,7 @@ body {
 
 .message {
     /* width: 100%; */
-    height: 200px;
+    height: 250px;
     background: white;
     border: 1px solid #d1d1d1;
     margin-bottom: 24px;
@@ -153,6 +152,12 @@ body {
     border-radius: 18px;
     display: none;
 }
+
+.message button {
+    padding: 15px;
+    margin: 15px;
+}
+
 .message textarea {
     width: 100%;
     border: 0;
