@@ -24,7 +24,22 @@ body {
     width: 100%;
 }
 
-.header-inner {
+.footer a {
+    text-decoration: none;
+    color: #3f51b5;
+
+
+}
+
+.footer {
+    background: #d1d1d1;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header-inner,
+.footer {
     max-width: 1100px;
     margin: auto;
     text-align: right;
