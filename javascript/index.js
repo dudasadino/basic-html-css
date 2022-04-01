@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', event => {
                 clickSave.dataset.save = false
             }
 
-            const saveCount = Array.from(document.querySelectorAll(".post-save")).filter(post => post.innerText === 'Salvo').length
+            const saveCount = Array.from(document.querySelectorAll(".post-save")).filter(post => post.innerText === 'SALVO').length
             const count = document.querySelector('#count')
             count.innerText = saveCount
         }))
